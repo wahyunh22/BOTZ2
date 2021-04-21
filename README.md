@@ -1,4 +1,4 @@
-# CASE BY NAYLA
+# CASE BY NAYLA CHAN
 
 # Installation
 
@@ -9,12 +9,6 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 ```
-
-## Windows
-* [`Download ffmpeg`](https://ffmpeg.org/download.html#build-windows) and set path
-* [`Download wget`](https://eternallybored.org/misc/wget/releases/) and set path
-* [`Download Node JS`](https://nodejs.org/en/download/)
-
 ## Cloning this repo
 ```cmd
 > git clone https://github.com/naylachan/BOTZ
@@ -27,10 +21,10 @@
 ```
 
 ## Edit config file
-Edit the required value in `config.json`. You can get the api key at [`LoL Human Rest API`](http://api.lolhuman.xyz/).
+Edit the required value in `settings.json`. You can get the api key at [`BOTZ BY NAYLA`](http://github.com/naylachan/BOTZ).
 ```json
 {
-    "apikey": "FREE",
+    "apikey": "YOUR_APIKEY",
     "prefix": "#",
     "owner": "62812874133914"
 }
@@ -40,6 +34,12 @@ Edit the required value in `config.json`. You can get the api key at [`LoL Human
 ```cmd
 > npm start
 ```
-
+## rimurubotz
+```cmd
+> mau ambil case dari sini ya??
+> silahkan, gk ada yg langka kok
+> capek" bikin case ehh malah direcode🗿
+> setidaknya follow github gw lah anjirr
+```
 ## Note:
 * You can request a case in my [`WhatsApp`](http://wa.me/62812874133914).
