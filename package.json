@@ -38,11 +38,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naylachan/BOTZ.git"
+    "url": "git+https://github.com/naylachan/BOTZ2.git"
   },
   "bugs": {
-    "url": "https://github.com/naylachan/BOTZ/issues"
+    "url": "https://github.com/naylachan/BOTZ2/issues"
   },
-  "homepage": "https://github.com/naylachan/BOTZ#readme"
+  "homepage": "https://github.com/naylachan/BOTZ2#readme"
 }
 
