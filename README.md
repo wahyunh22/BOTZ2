@@ -11,8 +11,8 @@
 ```
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/naylachan/BOTZ
-> cd BOTZ
+> git clone https://github.com/naylachan/BOTZ2
+> cd BOTZ2
 ```
 
 ## Install the package
