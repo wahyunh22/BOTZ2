@@ -665,6 +665,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ╭═════❲ *THX TO* ❳══════⊷
 ┃✜│${tz} *NAYLA CHAN*
 ┃✜│${tz} *RYNZ*
+┃✜│${tz} *ARI* 
 ┃✜│${tz} *ARA•ARA* 
 ╰══════════════════⊷ `
 }
