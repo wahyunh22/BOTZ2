@@ -22,6 +22,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ╭══════❲ *MENU.1* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}hidetag*
+┃✜│${tz} *${prefix}chat*
 ┃✜│${tz} *${prefix}add*
 ┃✜│${tz} *${prefix}kick*
 ┃✜│${tz} *${prefix}bug*
