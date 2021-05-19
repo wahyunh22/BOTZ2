@@ -11,7 +11,7 @@
 ```
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/naylachan/BOTZ2
+> git clone https://github.com/wahyunh22/wa
 > cd BOTZ2
 ```
 
