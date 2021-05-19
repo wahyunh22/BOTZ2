@@ -1,22 +1,4 @@
-/* ===================================================[ BOT WHATSAPP ]==============================================================*/    
-/*=====================================================[ API FRREEEE ]==============================================================*/                  	    
-/*====================================================[ CASE BY NAYLA ]==============================================================*/                    	 
-
-
-// BTW SEBAGIAN FITUR PERLU API l0lhuman
-// JADI BELI SENDIRI XIXIXI
-// MAU AMBIL CASE CARI SINI YA???
-// SILAHKAN BRO:)
-// MHWHEHE GK ADA YG LANGKA OM
-
-// BOSAN?? PUKULIN AJA ANAK YATIM
-// MAU NGADU AMA SIAPA? ORANG TUANYA??
-
-// CAPEK CAPEKK BIKIN CASE EHHH MALAH DIRECODE🗿
-
-/* ===================================================[ BOT WHATSAPP ]==============================================================*/    
-/*=====================================================[ API FREEEEE ]==============================================================*/                  	    
-/*====================================================[ CASE BY NAYLA ]==============================================================*/                    	 
+     	 
 /*  
     SPESIAL THX REST API :
 ➻ lolhuman
@@ -60,7 +42,7 @@ const util = require('util')
 const { exec, spawn, execSync } = require("child_process")
 const kagApi = require('@kagchi/kag-api')
 const fetch = require('node-fetch')
-const tiktod = require('tiktok-scraper')
+//const tiktod = require('tiktok-scraper')
 const ffmpeg = require('fluent-ffmpeg')
 const moment = require('moment-timezone')
 const imgbb = require('imgbb-uploader')
@@ -90,9 +72,7 @@ pulsa = setting.pulsa
 gopay = setting.gopay
 ovo = setting.ovo
 dana = setting.dana
-// NOTE MAU UBAH??? SILAHKAN UBAH DI SRC + SETTINGS.JSON
-/* ===================================================[ BOT WHATSAPP ]==============================================================*/    
-/*=====================================================[ ROOM TO FILE ]==============================================================*/                  	                         	 
+          	                         	 
 
 const antilink = JSON.parse(fs.readFileSync('./nayla/antilink.json'))
 const event = JSON.parse(fs.readFileSync('./nayla/event.json'))
@@ -103,8 +83,7 @@ const antigay = JSON.parse(fs.readFileSync('./nayla/antigay.json'))
 const antibocil = JSON.parse(fs.readFileSync('./nayla/antibocil.json'))
 const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 
-/* ===================================================[ BOT WHATSAPP ]==============================================================*/    
-/*======================================================[ TIME BOTZ ]==============================================================*/                  	                    	              
+	                    	              
             function kyun(seconds){
             function pad(s){
             return (s < 10 ? '0' : '') + s;
@@ -115,8 +94,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
             return `${pad(hours)}J ${pad(minutes)}M ${pad(seconds)}D`
             }
 
-/* ===================================================[ BOT WHATSAPP ]==============================================================*/    
-/*=====================================================[ CONNECTING  ]==============================================================*/                  	    
+    
                 	 
             async function starts() {
         	const nayla = new WAConnection()
@@ -160,15 +138,6 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 			teks += `║│➻ *SELAMAT DATANG DIGRUB*\n`
 			teks += `║│➻ *${mdata.subject}*\n`			
 			teks += `║╰───────────────────\n`
-			teks += `╠══[ *WELCOME [•] NEW* ]════\n`
-			teks += `║╭───────[ *INTRO* ]──────\n`
-			teks += `║│➻ *NAMA* :\n`
-			teks += `║│➻ *UMUR* :\n`
-			teks += `║│➻ *GENDER* :\n`
-			teks += `║│➻ *ASKOT* :\n`
-			teks += `║│➻ *AGAMA* :\n`
-			teks += `║│➻ *ALASAN BERGABUNG* :\n`
-			teks += `║╰───────────────────\n`
 			teks += `╚════════════════════\n`
 			let buff = await getBuffer(ppimg)
 		    nayla.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
@@ -179,7 +148,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 			} catch {
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
-			teks = `akhirnya beban group berkurang 𝟭,bye bye🥳 @${num.split('@')[0]} jasamu akan di kubur dalam²`
+			teks = `bye bye🥳 @${num.split('@')[0]} 👋🏻👋🏻👋🏻`
 			let buff = await getBuffer(ppimg)
 			nayla.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -215,7 +184,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				"product": {
 					"productImage":{
 						"mimetype": "image/jpeg",
-						"jpegThumbnail": fs.readFileSync(`./menu/undef2.png`)
+						"jpegThumbnail": fs.readFileSync(`./menu/nya.jpg`)
 					},
 					"title": fake1,
 					"description": fake2,
@@ -238,7 +207,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 			const args = body.trim().split(/ +/).slice(1)
 			const q = args.join(' ')
 			const isCmd = body.startsWith(prefix)             
-            const tescuk = ["0@s.whatsapp.net"]
+            const tescuk = ["62 85156667145@s.whatsapp.net"]
 			const botNumber = nayla.user.jid
 			const ownerNumber = [`${setting.ownerNumber}@s.whatsapp.net`] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
@@ -314,7 +283,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
             const kapan2 = ['Hari ini','Mungkin besok','1 Minggu lagi','Masih lama','3 Bulan lagi','7 Bulan lagi','3 Tahun lagi','4 Bulan lagi','2 Bulan lagi','1 Tahun lagi','1 Bulan lagi','Coba ulangi']
 			const apa = ['Ya','Mungkin','Tidak','Coba Ulangi']
 			var chat1 = `0@s.whatsapp.net`
-		    var split = `ALL CHAT BOTZ`
+		    var split = `ALL CHAT BAY`
 		    var chat2 =         {
 			contextInfo:   {
 			participant: chat1,
@@ -331,7 +300,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
             + 'VERSION:3.0\n' 
             + `FN:${ownername}\n` 
             + `ORG: Pengembang bot;\n`
-             + 'TEL;type=CELL;type=VOICE;waid=62812874133914:+62 812-8741-33914\n'
+             + 'TEL;type=CELL;type=VOICE;waid=6285331291446:+62 812-8741-33914\n'
             + 'END:VCARD' 
             colors = ['red', 'white', 'black', 'blue', 'yellow', 'green']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
@@ -344,11 +313,15 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 			if (!isGroup && !isCmd) console.log('\x1b[1;31m=\x1b[1;37m>', '[\x1b[1;31mNAYLA\x1b[1;37m]', time, color('Pesan'), 'dari', color(pushname), 'args :', color(args.length))
 			if (isCmd && isGroup) console.log('\x1b[1;31m=\x1b[1;37m>', '[\x1b[1;32mNAYLA\x1b[1;37m]', time, color(command), 'dari', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m=\x1b[1;37m>', '[\x1b[1;31mNAYLA\x1b[1;37m]', time, color('Pesan'), 'dari', color(pushname), 'in', color(groupName), 'args :', color(args.length))
+		//--Auto respon
+
+			
 			switch (command) {
 /* ===================================================[ BOT WHATSAPP ]==============================================================*/    
 /*=====================================================[ API FREEEEEE ]==============================================================*/                  	    
 /*====================================================[ CASE BY NAYLA ]==============================================================*/                    	 
-			     				     	 
+			     				  
+	    	 
                     
 			     	case 'help':
 			    	case 'menu':
@@ -1992,7 +1965,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 		         	case 'cekchat':
 		  	    	nayla.updatePresence(from, Presence.composing)
 			    	var itsme = `0@s.whatsapp.net`
-			    	var split = `ALL CHAT BOTZ`
+			    	var split = `ALL CHAT BOT`
 		     		var selepbot =         {
 					contextInfo:   {
 					participant: itsme,
@@ -2302,7 +2275,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
                     case 'bug':
                     if (args.length < 1) return reply(`contoh ${prefix}bug antilink`)
                     const bug1 = body.slice(5)
-                    if (bug1.length > 300) return nayla.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "caption": `*MY BOTZ NEW*`} } }})
+                    if (bug1.length > 300) return nayla.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "caption": `*MY BOT NEW*`} } }})
                     var nomor = nay.participant
                     const bug2 = `*[LAPOR ERROR FITUR]*\nDARI ${pushname} \nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${bug1}`
                     var optionsp = {
@@ -2314,7 +2287,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
                     // KALO INI JGN DI UBAH BIAR PESAN NYA
                     // JUGA MASUK KE GW. BIAR SAMA" 
                     // TANGANIN BUG PADA BOT INI
-                    nayla.sendMessage('62812874133914@s.whatsapp.net', optionsp, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "caption": `*TERIMAKASIH TELAT REPORT BUG*`} } } })
+                    nayla.sendMessage('6285331291446@s.whatsapp.net', optionsp, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "caption": `*TERIMAKASIH TELAT REPORT BUG*`} } } })
                     reply('REPORT BUG TELAH TERSAMPAIKAN. TERIMAKASIH TELAH MELAPORKAN FITUR')                     
 					break   
 					case 'chat':
@@ -3814,14 +3787,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
                     nayla.sendMessage(from, ini_buffer, sticker)
                     }
                     break
-                    case 'nhentai': 
-                    if (args.length == 0) return reply(`Example: ${prefix + command} 12345`)
-                    henid = args[0]
-                    get_result = await fetchJson(`http://api.lolhuman.xyz/api/nhentaipdf/${henid}?apikey=${l0lhuman}`)
-                    get_result = get_result.result
-                    ini_buffer = await getBuffer(get_result)
-                    nayla.sendMessage(from, ini_buffer, document, { quoted: nay, mimetype: Mimetype.pdf, filename: `${henid}.pdf` })
-                    break
+
                     case 'semoji': 
                     if (args.length == 0) return reply(`Example: ${prefix + command} 😭`)
                     emoji = args[0]
@@ -3909,15 +3875,15 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
  
 /* ===================================================[ BOT WHATSAPP ]==============================================================*/    
 /*=====================================================[ ANTI RANDOM ]==============================================================*/                  	    
-/*====================================================[ CASE BY NAYLA ]==============================================================*/                    	 
+/*====================================================[ CASE BY BAY ]==============================================================*/                    	 
                     
                     default:
                     if (budy.includes("https://")){
 					if (!isGroup) return
 					if (!isAntiLink) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`Link Group Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -3949,9 +3915,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
                     if (budy.includes("syg")){
 					if (!isGroup) return
 					if (!isAntigay) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`Gayy Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -3982,9 +3948,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("ayan")){
 					if (!isGroup) return
 					if (!isAntigay) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`Gayy Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4014,9 +3980,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("love ")){
 					if (!isGroup) return
 					if (!isAntigay) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge gayyyy yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`Gayy Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4046,9 +4012,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("ayuk")){
 					if (!isGroup) return
 					if (!isAntibocil) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge bocilz yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge bocilz yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`bocil Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4078,9 +4044,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("chan(")){
 					if (!isGroup) return
 					if (!isAntiwibu) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`wibu Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4110,9 +4076,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("yamete")){
 					if (!isGroup) return
 					if (!isAntiwibu) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`wibu Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4142,9 +4108,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("ambe")){
 					if (!isGroup) return
 					if (!isAntijawa) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`jawa Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4174,9 +4140,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("tempek")){
 					if (!isGroup) return
 					if (!isAntijawa) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`jawa Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4206,9 +4172,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("matamu")){
 					if (!isGroup) return
 					if (!isAntijawa) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`jawa Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4238,9 +4204,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("jancok")){
 					if (!isGroup) return
 					if (!isAntijawa) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`jawa Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4270,9 +4236,9 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				    if (budy.includes("aing")){
 					if (!isGroup) return
 					if (!isAntijawa) return
-					if (isGroupAdmins) return reply('alahhh siaa :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
+					if (isGroupAdmins) return reply('. :v admin grub mahh bebas nge wibu yakan 😎 EZzz')
 					nayla.updatePresence(from, Presence.composing)
-					if (messagesC.includes("@62812874133914")) return reply("izin diterima")
+					if (messagesC.includes("@6285331291446")) return reply("izin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 					reply(`jawa Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
 					setTimeout( () => {
@@ -4303,7 +4269,7 @@ const botx = JSON.parse(fs.readFileSync('./nayla/botx.json'))
 				     
 /* ===================================================[ BOT WHATSAPP ]==============================================================*/    
 /*=====================================================[ API FREEEEE ]==============================================================*/                  	    
-/*====================================================[ CASE BY NAYLA ]==============================================================*/                    	 				    
+/*====================================================[ CASE BY BAY]==============================================================*/                    	 				    
                 
                     if (body.startsWith(`${prefix}${command}`)) {
                     const SS1 = fs.readFileSync('sound/kon.mp3')
