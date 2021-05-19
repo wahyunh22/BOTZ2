@@ -1,7 +1,7 @@
 exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 	return`╭════❲ *WHATSAPP* ❳═══⊷ 
 ┃✜╭───────────────── 
-┃✜│ *BOT WHATSAPP NEW*
+┃✜│ *BOT WHATSAPP*
 ┃✜│ *OWNER : ${ownername}*
 ┃✜│ *AUTHOR : ${author}*
 ┃✜│ *NAMEBOT : ${namebot}*
@@ -9,15 +9,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜│ *CHAT : ${tchat}*
 ┃✜╰─────────────────
 ╰══════════════════⊷
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭═════❲ *PERATURAN* ❳═══⊷
-┃⚀ *JGN SPAM FITUR BOT*
-┃⚁ *JGN CALL BOT INI*
-┃⚂ *JGN TOXIC KE BOT*
-┃⚃ *JGN PLAGIAT BOT*
-┃⚄ *JGN CULIK BOT INI*
-┃⚅ *JGN MEMBANDING BOT*
-╰═══════════════════⊷ 
+ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
 ╭══════❲ *MENU.1* ❳══════⊷ 
 ┃✜╭───────────────── 
@@ -28,10 +20,6 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜│${tz} *${prefix}bug*
 ┃✜│${tz} *${prefix}slot*
 ┃✜│${tz} *${prefix}antilink*
-┃✜│${tz} *${prefix}antigay*
-┃✜│${tz} *${prefix}antibocil*
-┃✜│${tz} *${prefix}antiwibu*
-┃✜│${tz} *${prefix}antijawa*
 ┃✜╰─────────────────
 ╰══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
@@ -130,15 +118,10 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
 ╭══════❲ *MENU.7* ❳══════⊷ 
 ┃✜╭───────────────── 
-┃✜│${tz} *${prefix}twich*
-┃✜│${tz} *${prefix}loli*
-┃✜│${tz} *${prefix}randomhusbu*
-┃✜│${tz} *${prefix}fake*
 ┃✜│${tz} *${prefix}pinterest*
 ┃✜│${tz} *${prefix}qrcode*
 ┃✜│${tz} *${prefix}resepmasakan*
 ┃✜│${tz} *${prefix}barcode*
-┃✜│${tz} *${prefix}cersex*
 ┃✜│${tz} *${prefix}cerpen*
 ┃✜│${tz} *${prefix}anime*
 ┃✜│${tz} *${prefix}anime1*
@@ -189,7 +172,6 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜│${tz} *${prefix}ytsilver*
 ┃✜│${tz} *${prefix}t3d*
 ┃✜│${tz} *${prefix}logoa*
-┃✜│${tz} *${prefix}pornhub*
 ┃✜│${tz} *${prefix}marvel*
 ┃✜│${tz} *${prefix}leavest*
 ┃✜│${tz} *${prefix}phcoment*
@@ -216,62 +198,19 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
 ╭══════❲ *MENU.11* ❳══════⊷ 
 ┃✜╭───────────────── 
-┃✜│${tz} *${prefix}indo1* 
-┃✜│${tz} *${prefix}indo2* 
-┃✜│${tz} *${prefix}indo3* 
-┃✜│${tz} *${prefix}indo4* 
-┃✜│${tz} *${prefix}indo5* 
-┃✜│${tz} *${prefix}indo6* 
-┃✜│${tz} *${prefix}indo7* 
-┃✜│${tz} *${prefix}indo8* 
-┃✜│${tz} *${prefix}indo9* 
-┃✜│${tz} *${prefix}indo10* 
-┃✜│${tz} *${prefix}indo11* 
-┃✜│${tz} *${prefix}indo12* 
-┃✜│${tz} *${prefix}indo13* 
-┃✜│${tz} *${prefix}indo14* 
-┃✜│${tz} *${prefix}indo15* 
-┃✜│${tz} *${prefix}indo16* 
-┃✜│${tz} *${prefix}indo17* 
-┃✜│${tz} *${prefix}indo18* 
-┃✜│${tz} *${prefix}indo19* 
-┃✜│${tz} *${prefix}indo20* 
-┃✜│${tz} *${prefix}indo21* 
-┃✜│${tz} *${prefix}indo22* 
-┃✜│${tz} *${prefix}indo23* 
-┃✜│${tz} *${prefix}indo24* 
-┃✜│${tz} *${prefix}indo25* 
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.12* ❳══════⊷ 
-┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}ganteng*
 ┃✜│${tz} *${prefix}cantik*
-┃✜│${tz} *${prefix}jelek*
-┃✜│${tz} *${prefix}goblok*
-┃✜│${tz} *${prefix}bego*
 ┃✜│${tz} *${prefix}pinter*
 ┃✜│${tz} *${prefix}jago*
-┃✜│${tz} *${prefix}babi*
 ┃✜│${tz} *${prefix}beban*
 ┃✜│${tz} *${prefix}baik*
 ┃✜│${tz} *${prefix}jahat*
-┃✜│${tz} *${prefix}anjing*
-┃✜│${tz} *${prefix}monyet*
-┃✜│${tz} *${prefix}haram*
-┃✜│${tz} *${prefix}kontol*
-┃✜│${tz} *${prefix}pakboy*
-┃✜│${tz} *${prefix}pakgirl*
-┃✜│${tz} *${prefix}sadboy*
-┃✜│${tz} *${prefix}sadgirl*
-┃✜│${tz} *${prefix}wibu*
 ┃✜│${tz} *${prefix}nolep*
 ┃✜│${tz} *${prefix}hebat*
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.13* ❳══════⊷ 
+╭══════❲ *MENU.12* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}wallteknologi*
 ┃✜│${tz} *${prefix}wallhacker*
@@ -292,7 +231,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.14* ❳══════⊷ 
+╭══════❲ *MENU.13* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}toimg*
 ┃✜│${tz} *${prefix}readmore*
@@ -312,7 +251,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.15* ❳══════⊷ 
+╭══════❲ *MENU.14* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}sound1*
 ┃✜│${tz} *${prefix}sound2*
@@ -341,7 +280,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.16* ❳══════⊷ 
+╭══════❲ *MENU.15* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}asupan*
 ┃✜│${tz} *${prefix}asupan1*
@@ -362,37 +301,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.17* ❳══════⊷ 
-┃✜╭───────────────── 
-┃✜│${tz} *${prefix}orgy*                     
-┃✜│${tz} *${prefix}nsfwneko*
-┃✜│${tz} *${prefix}mstrb* 
-┃✜│${tz} *${prefix}manga* 
-┃✜│${tz} *${prefix}jahy* 
-┃✜│${tz} *${prefix}hentaigif* 
-┃✜│${tz} *${prefix}hentai* 
-┃✜│${tz} *${prefix}glasses*
-┃✜│${tz} *${prefix}gangbang* 
-┃✜│${tz} *${prefix}ero* 
-┃✜│${tz} *${prefix}cuckold* 
-┃✜│${tz} *${prefix}blowjob* 
-┃✜│${tz} *${prefix}bdsm* 
-┃✜│${tz} *${prefix}ass* 
-┃✜│${tz} *${prefix}ahegao* 
-┃✜│${tz} *${prefix}zettairyouiki* 
-┃✜│${tz} *${prefix}wpnsfwmobile* 
-┃✜│${tz} *${prefix}wpmobile* 
-┃✜│${tz} *${prefix}wallpaper*
-┃✜│${tz} *${prefix}thighs* 
-┃✜│${tz} *${prefix}uniform*
-┃✜│${tz} *${prefix}tentacles* 
-┃✜│${tz} *${prefix}sfwneko* 
-┃✜│${tz} *${prefix}pussy* 
-┃✜│${tz} *${prefix}panties* 
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.18* ❳══════⊷ 
+╭══════❲ *MENU.16* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}naruto* 
 ┃✜│${tz} *${prefix}mikasa* 
@@ -428,7 +337,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.19* ❳══════⊷ 
+╭══════❲ *MENU.17* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}pin* 
 ┃✜│${tz} *${prefix}foto* 
@@ -438,102 +347,11 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜│${tz} *${prefix}ramalnikah* 
 ┃✜│${tz} *${prefix}taksirmimpi* 
 ┃✜│${tz} *${prefix}suit*
+┃✜│${tz} *${prefix}maker(1-72) (teks)*   
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.20* ❳══════⊷ 
-┃✜╭───────────────── 
-┃✜│${tz} *${prefix}maker1*                   
-┃✜│${tz} *${prefix}maker2*                   
-┃✜│${tz} *${prefix}maker3*                   
-┃✜│${tz} *${prefix}maker4*                   
-┃✜│${tz} *${prefix}maker5*                   
-┃✜│${tz} *${prefix}maker6*                   
-┃✜│${tz} *${prefix}maker7*                   
-┃✜│${tz} *${prefix}maker8*                   
-┃✜│${tz} *${prefix}maker9*                   
-┃✜│${tz} *${prefix}maker10*                   
-┃✜│${tz} *${prefix}maker11*                   
-┃✜│${tz} *${prefix}maker12*                   
-┃✜│${tz} *${prefix}maker13*                   
-┃✜│${tz} *${prefix}maker14*                   
-┃✜│${tz} *${prefix}maker15*                   
-┃✜│${tz} *${prefix}maker16*                   
-┃✜│${tz} *${prefix}maker17*                   
-┃✜│${tz} *${prefix}maker18*                   
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.21* ❳══════⊷ 
-┃✜╭───────────────── 
-┃✜│${tz} *${prefix}maker19*                   
-┃✜│${tz} *${prefix}maker20*         
-┃✜│${tz} *${prefix}maker21*                   
-┃✜│${tz} *${prefix}maker22*                   
-┃✜│${tz} *${prefix}maker23*                   
-┃✜│${tz} *${prefix}maker24*                   
-┃✜│${tz} *${prefix}maker25*                   
-┃✜│${tz} *${prefix}maker26*                   
-┃✜│${tz} *${prefix}maker27*                   
-┃✜│${tz} *${prefix}maker28*                   
-┃✜│${tz} *${prefix}maker29*                   
-┃✜│${tz} *${prefix}maker30*         
-┃✜│${tz} *${prefix}maker31*                   
-┃✜│${tz} *${prefix}maker32*                   
-┃✜│${tz} *${prefix}maker33*                   
-┃✜│${tz} *${prefix}maker34*                   
-┃✜│${tz} *${prefix}maker35*                   
-┃✜│${tz} *${prefix}maker36*                   
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.22* ❳══════⊷ 
-┃✜╭───────────────── 
-┃✜│${tz} *${prefix}maker37*                   
-┃✜│${tz} *${prefix}maker38*                   
-┃✜│${tz} *${prefix}maker39*                   
-┃✜│${tz} *${prefix}maker40*         
-┃✜│${tz} *${prefix}maker41*                   
-┃✜│${tz} *${prefix}maker42*                   
-┃✜│${tz} *${prefix}maker43*                   
-┃✜│${tz} *${prefix}maker44*                   
-┃✜│${tz} *${prefix}maker45*                   
-┃✜│${tz} *${prefix}maker46*                   
-┃✜│${tz} *${prefix}maker47*                   
-┃✜│${tz} *${prefix}maker48*                   
-┃✜│${tz} *${prefix}maker49*                   
-┃✜│${tz} *${prefix}maker50*         
-┃✜│${tz} *${prefix}maker51*                   
-┃✜│${tz} *${prefix}maker52*                   
-┃✜│${tz} *${prefix}maker53*                   
-┃✜│${tz} *${prefix}maker54*                   
-┃✜│${tz} *${prefix}maker55*                   
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.23* ❳══════⊷ 
-┃✜╭───────────────── 
-┃✜│${tz} *${prefix}nama*                   
-┃✜│${tz} *${prefix}maker57*                   
-┃✜│${tz} *${prefix}maker58*                   
-┃✜│${tz} *${prefix}maker59*                   
-┃✜│${tz} *${prefix}maker60*         
-┃✜│${tz} *${prefix}maker61*                   
-┃✜│${tz} *${prefix}maker62*                   
-┃✜│${tz} *${prefix}maker63*                   
-┃✜│${tz} *${prefix}maker64*                   
-┃✜│${tz} *${prefix}maker65*                   
-┃✜│${tz} *${prefix}maker66*                   
-┃✜│${tz} *${prefix}maker67*                   
-┃✜│${tz} *${prefix}maker68*                   
-┃✜│${tz} *${prefix}maker69*                   
-┃✜│${tz} *${prefix}maker70*         
-┃✜│${tz} *${prefix}maker71*                   
-┃✜│${tz} *${prefix}maker72*                   
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.24* ❳══════⊷ 
+╭══════❲ *MENU.18* ❳══════⊷ 
 ┃✜╭───────────────── 
 ┃✜│${tz} *${prefix}boomtext*
 ┃✜│${tz} *${prefix}holoh*
@@ -553,17 +371,14 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.25* ❳══════⊷ 
+╭══════❲ *MENU.19* ❳══════⊷ 
 ┃✜╭─────────────────  
 ┃✜│${tz} *${prefix}gantengcek*
 ┃✜│${tz} *${prefix}cantikcek*
-┃✜│${tz} *${prefix}jelekcek*
-┃✜│${tz} *${prefix}goblokcek*
-┃✜│${tz} *${prefix}begocek*
+┃✜│${tz} *${prefix}jelekcek* CD
 ┃✜│${tz} *${prefix}pintercek*
 ┃✜│${tz} *${prefix}jagocek*
 ┃✜│${tz} *${prefix}nolepcek*
-┃✜│${tz} *${prefix}babicek*
 ┃✜│${tz} *${prefix}bebancek*
 ┃✜│${tz} *${prefix}baikcek*
 ┃✜│${tz} *${prefix}jahatcek*
@@ -577,7 +392,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.26* ❳══════⊷ 
+╭══════❲ *MENU.20* ❳══════⊷ 
 ┃✜╭─────────────────  
 ┃✜│${tz} *${prefix}phkomen*
 ┃✜│${tz} *${prefix}semoji*
@@ -598,7 +413,7 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.27* ❳══════⊷ 
+╭══════❲ *MENU.21* ❳══════⊷ 
 ┃✜╭─────────────────   
 ┃✜│${tz} *${prefix}art*
 ┃✜│${tz} *${prefix}bts*
@@ -612,62 +427,13 @@ exports.menuZ = (prefix, bulan, tchat, ownername, tz, namebot, author) => {
 ┃✜│${tz} *${prefix}sagiri*
 ┃✜│${tz} *${prefix}shinobu*
 ┃✜│${tz} *${prefix}megumin*
-┃✜│${tz} *${prefix}wallnime*                                   
-┃✜│${tz} *${prefix}bj*
-┃✜│${tz} *${prefix}ero*
-┃✜│${tz} *${prefix}cum*
-┃✜│${tz} *${prefix}feet*
-┃✜│${tz} *${prefix}yuri*
-┃✜│${tz} *${prefix}trap*
-┃✜│${tz} *${prefix}lewd*
-┃✜│${tz} *${prefix}feed*
-┃✜│${tz} *${prefix}eron*
-┃✜│${tz} *${prefix}solo*
-┃✜│${tz} *${prefix}gasm*
-┃✜│${tz} *${prefix}poke*
-┃✜│${tz} *${prefix}anal*
-┃✜│${tz} *${prefix}holo*
+┃✜│${tz} *${prefix}wallnime*                      
 ┃✜╰─────────────────
 ╰═══════════════════⊷ 
+ 
  ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭══════❲ *MENU.28* ❳══════⊷ 
-┃✜╭─────────────────  
-┃✜│${tz} *${prefix}tits*
-┃✜│${tz} *${prefix}kuni*
-┃✜│${tz} *${prefix}kiss*
-┃✜│${tz} *${prefix}erok*
-┃✜│${tz} *${prefix}smug*
-┃✜│${tz} *${prefix}baka*
-┃✜│${tz} *${prefix}solog*
-┃✜│${tz} *${prefix}feetg*
-┃✜│${tz} *${prefix}lewdk*
-┃✜│${tz} *${prefix}waifu*
-┃✜│${tz} *${prefix}pussy*
-┃✜│${tz} *${prefix}femdom*
-┃✜│${tz} *${prefix}cuddle*
-┃✜│${tz} *${prefix}hentai*
-┃✜│${tz} *${prefix}eroyuri*
-┃✜│${tz} *${prefix}cum_jpg*
-┃✜│${tz} *${prefix}blowjob*
-┃✜│${tz} *${prefix}erofeet*
-┃✜│${tz} *${prefix}holoero*
-┃✜│${tz} *${prefix}classic*
-┃✜│${tz} *${prefix}erokemo*
-┃✜│${tz} *${prefix}fox_girl*
-┃✜│${tz} *${prefix}futanari*
-┃✜│${tz} *${prefix}lewdkemo*
-┃✜│${tz} *${prefix}wallpaper*
-┃✜│${tz} *${prefix}pussy_jpg*
-┃✜│${tz} *${prefix}kemonomimi*
-┃✜│${tz} *${prefix}nsfw_avatar* 
-┃✜╰─────────────────
-╰═══════════════════⊷ 
- ▻►▻►▻►▻►▻►▻►▻►▻►▻►▻
-╭═════❲ *THX TO* ❳══════⊷
-┃✜│${tz} *NAYLA CHAN*
-┃✜│${tz} *RYNZ*
-┃✜│${tz} *ARI* 
-┃✜│${tz} *ARA•ARA* 
+╭═════❲ *BY* ❳══════⊷
+┃✜│${tz} *Zhu*
 ╰══════════════════⊷ `
 }
 exports.botx = (prefix) => {
